@@ -13,6 +13,9 @@ app.set('views', './views');
 
 // Informar al servidor el formato
 app.use(express.json());
+
+
+// Cómo leer un form desde express
 app.use(express.urlencoded({ extended: true }));
 
 
